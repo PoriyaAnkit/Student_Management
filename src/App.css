@@ -1,0 +1,296 @@
+.part1
+{
+  width: 300px;
+  background-color: #343A40;
+  color: #B0B3B5;
+  /* padding: 0 20px; */
+  transition: .8s;
+  white-space: nowrap;
+  overflow: hidden;
+  height: 100% !important;
+
+}
+.part2
+{
+  width: calc(100% - 300px);
+}
+.part3
+{
+  height: 100% !important;
+  width: 80px;
+  background-color: #343A40;
+  color: #B0B3B5;
+  overflow: hidden;
+  /* padding: 0 20px; */
+  white-space: nowrap;
+  transition: .5s;
+}
+/* .fixed::-webkit-scrollbar
+{
+  width: 6px;
+  margin-left: 20px !important;
+  padding-left: 20px !important;
+  color: #B0B3B5;
+  display: none;
+}
+.fixed:hover.fixed::-webkit-scrollbar
+{
+  display: block;
+}
+.fixed::-webkit-scrollbar-thumb
+{
+  background-color: #B0B3B5;
+  border-radius: 10px;
+  margin-left: 20px !important;
+  padding-left: 20px !important;
+} */
+/* .fixed
+{
+  overflow-y: scroll;
+  height: 100vh;
+} */
+.search::placeholder
+{
+  color: #B0B3B5 !important;
+}
+.search
+{
+  background-color: #343A40 !important;
+  color:#B0B3B5 !important;
+  border-color: #B0B3B5  !important;
+}
+.accordi
+{
+  padding: 0 !important;
+  background-color: #212565 !important;
+  margin: 0 !important;
+}
+.accordion-button
+{
+  padding: 0;
+}
+/* .none
+{
+  display: none;
+}
+.block
+{
+  display: none;
+} */
+.head
+{
+  box-shadow: 2px 0 10px rgb(192, 157, 192,.5);
+}
+.logo
+{
+  padding: 12px 8px 0 7px;
+}
+.task
+{
+  padding:0 15px !important;
+}
+a
+{
+  text-decoration: none !important;
+  color: #B0B3B5 !important;
+}
+ul
+{
+  list-style: none;
+  padding-left: 0 !important;
+}
+.examp
+{
+  font-size: 14px;
+  padding: 0 5px;
+}
+/* .ulpadd
+{
+  padding:0 12px !important;
+} */
+.dash
+{
+  /* width: 100% !important;
+  padding: 0 30px; */
+  padding: 7px 15px;
+  overflow: hidden;
+  white-space: nowrap;
+  margin: 5px 0;
+}
+.dash2:hover
+{
+  background-color:rgb(116, 124, 133 ,.4) !important;
+}
+.dashhover
+{
+  background-color: transparent !important;
+  border: none !important;
+  border-radius: none !important;
+  padding-right: 100px !important;
+}
+.dash1
+{
+  background-color: #007bff  !important;
+}
+.circle
+{
+  margin: -3px !important;
+}
+.das
+{
+  background-color: #343A40;
+}
+.dash a
+{
+  color: white !important; 
+  font-weight: bold;
+}
+.icon
+{
+  font-size: 20px;
+}
+.navhome a
+{
+  color: rgba(0,0,0,.5) !important;
+}
+.map a
+{
+  /* color: rgba(0,0,0,.5) !important; */
+  font-size: 20px;
+  color: #212565 !important;
+}
+/* .neww
+{
+  margin-top: 200px;
+  margin-left: 100px;
+} */
+
+/* dashboard start */
+.board
+{
+  color: #212565 !important;
+  padding: 15px;
+  font-weight: 400;
+}
+.bags
+{
+  padding: 10px !important;
+}
+.bag
+{
+  font-size: 70px;
+  color: rgba(0,0,0,.15);
+  /* top: 20px; */
+}
+.bag:hover
+{
+  transform: scale(1.1);
+  transition: .4s;
+}
+.more
+{
+  background-color: rgba(0,0,0,.2) !important;
+}
+/* dashboard end */
+
+/* Login start */
+.login
+{
+  /* height: 80vh; */
+  margin-top: 80px;
+  width: 100wh;
+  align-items: center;  
+  display: flex;
+  justify-content: center;
+
+}
+
+.loginpage
+{
+  width: 350px;
+  padding: 30px;
+}
+
+.fas
+{
+  border-radius: 50% !important;
+}
+.loginshadow
+{
+  box-shadow: 0 0 5px #B0B3B5;
+  width: 500px;
+  background-color: white;
+  background-color:rgb(116, 124, 133 ,.42)
+}
+/* Login end */
+
+/* Add user start */
+.margins
+{
+  margin-left: 290px;
+}
+.bgcolor
+{
+  background-color: rgba(221, 198, 221, 0.233);
+  /* background-color: rgba(221, 198, 221, 0.233); */
+}
+.viewpage
+{
+  box-shadow: 0 0 5px #B0B3B5;
+  width: 700px;
+  background-color: white;
+}
+.viewsize
+{
+  box-shadow: 0 0 5px #B0B3B5;
+  width: 100%;
+  background-color: white;
+}
+.login1
+{
+  /* height: 70vh; */
+  width: 100wh;
+  margin-top: 60px;
+  align-items: center;  
+  display: flex;
+  justify-content: center;
+}
+.login2
+{
+  /* height: 80vh; */
+  margin-top: 80px;
+  width: 100wh;
+  align-items: center;  
+  display: flex;
+  justify-content: center;
+}
+.trcolor
+{
+  background-color: black !important;
+}
+.none
+{
+  display: none;
+}
+.block
+{
+  display: block;
+}
+/* Add user end */
+/* Admition start */
+.addmi
+{
+  box-shadow: 0 0 5px #B0B3B5;
+  margin-bottom: 30px;
+}
+.tab_border button.active
+{
+  border-top: 1px solid black !important;
+  border-right: 1px solid black !important ;
+  border-left: 1px solid black !important ;
+}
+/* Admition end */
+.vh100
+{
+  height: 100vh;
+}
